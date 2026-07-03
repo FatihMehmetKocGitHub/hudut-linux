@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hudut Firefox OSINT
+Comment=Open separated Firefox OSINT profile
+Exec=python3 /home/nnhfy/hudut-linux/apps/firefox/hudut_firefox_osint.py launch
+Icon=firefox
+Terminal=false
+Categories=Network;Security;Research;

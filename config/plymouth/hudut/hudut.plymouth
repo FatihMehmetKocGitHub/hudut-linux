@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Hudut Linux
+Description=Hudut Linux Boot Splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/hudut
+ScriptFile=/usr/share/plymouth/themes/hudut/hudut.script

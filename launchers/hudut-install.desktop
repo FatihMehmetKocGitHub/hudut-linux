@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Kurulum
+Comment=Hudut Linux Calamares Installer
+Exec=hudut-install
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=System;Settings;

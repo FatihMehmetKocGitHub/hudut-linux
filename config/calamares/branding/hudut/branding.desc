@@ -1,0 +1,45 @@
+---
+componentName: hudut
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 900px,560px
+windowPlacement: center
+
+sidebar: widget
+navigation: widget
+
+strings:
+    productName: Hudut Linux Kurulum
+    shortProductName: Hudut
+    version: V0.1 Beta
+    shortVersion: V0.1 Beta
+    versionedName: Hudut Linux Kurulum V0.1 Beta
+    shortVersionedName: Hudut V0.1 Beta
+    bootloaderEntryName: Hudut Linux V0.1 Beta
+    productUrl: https://github.com/FatihMehmetKocGitHub/hudut-linux
+    supportUrl: https://github.com/FatihMehmetKocGitHub/hudut-linux
+    knownIssuesUrl: https://github.com/FatihMehmetKocGitHub/hudut-linux/issues
+    releaseNotesUrl: https://github.com/FatihMehmetKocGitHub/hudut-linux
+    donateUrl: ""
+
+images:
+    productIcon: hudut-logo.png
+    productLogo: hudut-logo.png
+    productWelcome: hudut-logo.png
+
+style:
+    SidebarBackground: "#202833"
+    SidebarText: "#FFFFFF"
+    SidebarTextCurrent: "#202833"
+    SidebarBackgroundCurrent: "#ff7a00"
+
+slideshow: "show.qml"
+slideshowAPI: 2
+
+uploadServer:
+    type: "none"
+    url: ""
+    sizeLimit: -1
