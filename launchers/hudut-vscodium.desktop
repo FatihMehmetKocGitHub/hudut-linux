@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut VSCodium
+Comment=Hudut Linux ve Python Lab kod editörü
+Exec=hudut-codium-python
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Development;

@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+if ! command -v calamares >/dev/null 2>&1; then
+    echo "Calamares kurulu değil."
+    echo "Kurmak için: sudo apt install calamares"
+    read -r -p "Kapatmak için Enter..."
+    exit 1
+fi
+
+if [ -n "${DISPLAY:-}" ] && command -v xhost >/dev/null 2>&1; then
+    xhost +SI:localuser:root >/dev/null 2>&1 || true
+fi
+
+sudo mkdir -p /tmp/runtime-root
+sudo chmod 700 /tmp/runtime-root
+
+exec sudo -E env \
+    DISPLAY="${DISPLAY:-}" \
+    XAUTHORITY="${XAUTHORITY:-$HOME/.Xauthority}" \
+    QT_QPA_PLATFORM=xcb \
+    XDG_RUNTIME_DIR=/tmp/runtime-root \
+    LANG=tr_TR.UTF-8 \
+    LANGUAGE=tr_TR:tr \
+    LC_ALL=tr_TR.UTF-8 \
+    SESSION_MANAGER= \
+    calamares

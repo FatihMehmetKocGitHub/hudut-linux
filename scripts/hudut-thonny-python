@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+
+cd "$HOME/hudut-python-lab"
+
+if command -v thonny >/dev/null 2>&1; then
+    exec thonny
+else
+    echo "Thonny kurulu değil."
+    read -r -p "Kapatmak için Enter..."
+fi

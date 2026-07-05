@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+mkdir -p "$HOME/hudut-python-lab"
+
+if command -v xfce4-terminal >/dev/null 2>&1; then
+    exec xfce4-terminal --title="Hudut Python Lab" --working-directory="$HOME/hudut-python-lab" --command="bash -lc 'source .venv/bin/activate 2>/dev/null || true; echo Hudut Python Lab Terminal; echo; exec bash'"
+else
+    cd "$HOME/hudut-python-lab"
+    source .venv/bin/activate 2>/dev/null || true
+    exec bash
+fi

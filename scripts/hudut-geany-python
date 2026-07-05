@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+if command -v geany >/dev/null 2>&1; then
+    exec geany "$HOME/hudut-linux" "$HOME/hudut-python-lab"
+else
+    echo "Geany kurulu değil."
+    read -r -p "Kapatmak için Enter..."
+fi

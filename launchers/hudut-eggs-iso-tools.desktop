@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Eggs ISO Tools
+Comment=Penguins Eggs ISO / Remaster Tools
+Exec=hudut-eggs-terminal
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=System;Development;

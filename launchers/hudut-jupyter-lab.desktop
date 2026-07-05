@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut JupyterLab
+Comment=Hudut Python Lab JupyterLab
+Exec=hudut-jupyter-lab
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Development;Education;

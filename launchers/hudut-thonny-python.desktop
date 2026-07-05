@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Thonny Python
+Comment=Python öğrenme ve algoritma pratiği
+Exec=hudut-thonny-python
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Development;Education;

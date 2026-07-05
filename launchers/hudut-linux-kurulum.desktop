@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Linux Kurulum V0.1 Beta
+Comment=Hudut Linux Calamares Installer Demo
+Exec=hudut-calamares-terminal
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=System;Settings;

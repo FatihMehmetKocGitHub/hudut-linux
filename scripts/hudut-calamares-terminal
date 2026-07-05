@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+if command -v xfce4-terminal >/dev/null 2>&1; then
+    exec xfce4-terminal --title="Hudut Linux Kurulum" --command="bash -lc 'hudut-calamares; echo; read -p \"Kapatmak için Enter...\"'"
+elif command -v x-terminal-emulator >/dev/null 2>&1; then
+    exec x-terminal-emulator -e bash -lc 'hudut-calamares; echo; read -p "Kapatmak için Enter..."'
+else
+    exec bash -lc 'hudut-calamares; echo; read -p "Kapatmak için Enter..."'
+fi

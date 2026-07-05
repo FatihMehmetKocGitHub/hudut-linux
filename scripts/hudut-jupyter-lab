@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+
+cd "$HOME/hudut-python-lab"
+
+if [ ! -d ".venv" ]; then
+    echo "Hudut Python Lab venv bulunamadı."
+    echo "Beklenen yol: $HOME/hudut-python-lab/.venv"
+    read -r -p "Kapatmak için Enter..."
+    exit 1
+fi
+
+if command -v xfce4-terminal >/dev/null 2>&1; then
+    exec xfce4-terminal --title="Hudut JupyterLab" --working-directory="$HOME/hudut-python-lab" --command="bash -lc 'source .venv/bin/activate; jupyter lab; read -p \"Kapatmak için Enter...\"'"
+else
+    source .venv/bin/activate
+    jupyter lab
+fi

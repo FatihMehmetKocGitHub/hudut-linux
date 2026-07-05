@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Spyder AI
+Comment=AI ve veri analizi IDE
+Exec=hudut-spyder-python
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Development;Science;

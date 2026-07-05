@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Firefox OSINT
+Comment=Open Hudut Firefox OSINT Profile
+Exec=hudut-firefox-osint
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Network;Security;

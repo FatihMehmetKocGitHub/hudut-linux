@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+TITLE="Hudut Kurulum"
+
+MESSAGE="Hudut Kurulum hazırlık aşamasındadır.
+
+Bu sistemde Calamares paketi kurulmuş olabilir fakat gerçek kurulum akışı Live ISO içinde çalışacak şekilde hazırlanacaktır.
+
+Doğru sıra:
+
+1. Penguins' eggs kurulacak
+2. Hudut sisteminden ISO/remaster üretilecek
+3. Live ISO test edilecek
+4. Calamares ayarları ve Hudut branding ISO içinde yapılandırılacak
+5. Hudut Kurulum masaüstü kısayolu Live ortamda aktif kullanılacak
+
+Normal kurulu geliştirme sisteminde Calamares doğrudan çalıştırılmayacak.
+Bu davranış veri kaybı riskini azaltmak içindir."
+
+if command -v zenity >/dev/null 2>&1; then
+    GTK_THEME=Adwaita zenity --info --title="$TITLE" --width=620 --text="$MESSAGE" 2>/dev/null || true
+else
+    echo "$MESSAGE"
+    echo
+    read -r -p "Kapatmak için Enter..."
+fi

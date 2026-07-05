@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Welcome
+Comment=Hudut Linux Welcome Center
+Exec=hudut-welcome
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+X-GNOME-Autostart-enabled=true

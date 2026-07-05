@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Python Lab Terminal
+Comment=Hudut Python sanal ortam terminali
+Exec=hudut-python-lab-terminal
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Development;

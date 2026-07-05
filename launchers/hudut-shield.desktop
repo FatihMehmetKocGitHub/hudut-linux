@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Shield
+Comment=Hudut Linux Security Center
+Exec=hudut-shield-terminal
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Security;System;

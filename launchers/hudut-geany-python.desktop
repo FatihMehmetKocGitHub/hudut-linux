@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Hudut Geany Python
+Comment=Hudut Python script editörü
+Exec=hudut-geany-python
+Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
+Terminal=false
+Categories=Development;
