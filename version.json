@@ -1,8 +1,9 @@
 {
   "project": "Hudut Linux",
-  "version": "0.1.0-beta",
+  "version": "0.4.2-public-showcase-alpha",
   "codename": "Secure OSINT Workstation",
-  "stage": "Developer Beta",
+  "stage": "Public Showcase Alpha",
   "base": "Xubuntu 24.04",
-  "status": "active development"
+  "status": "active development",
+  "active_module": "Public Showcase Documentation"
 }

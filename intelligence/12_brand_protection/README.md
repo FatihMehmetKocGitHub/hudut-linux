@@ -1,15 +1,43 @@
-# 12_brand_protection
-
-Bu klasör Hudut Linux siber istihbarat modüllerinden biridir.
+# BRAND PROTECTION
 
 ## Amaç
 
-Yasal, etik ve raporlanabilir açık kaynak araştırmaları için metodoloji, kaynak, not ve örnek çalışma dosyalarını düzenli tutmak.
+Marka taklidi, sahte domain, sahte sosyal medya profili ve phishing risklerini izleme.
 
-## İçerik
+## Önerilen Hudut Container
 
-- methodology.md
-- sources.md
-- checklist.md
-- examples/
-- notes/
+`hudut-osint`
+
+## V1 Kullanım Sınırı
+
+Bu klasör yalnızca yasal, etik, açık kaynak araştırma ve raporlama amacıyla kullanılır.
+
+Yasak kapsam:
+
+- Yetkisiz erişim
+- Doxxing
+- Kişisel veri yayma
+- Zararlı yazılım çalıştırma
+- İzinsiz hedef tarama
+- Taciz, takip veya tehdit amacıyla kullanım
+
+## Klasör Yapısı
+
+```text
+checklists/
+sources/
+reports/
+notes/
+cases/
+evidence/
+```
+
+## Raporlama İlkesi
+
+Her bulgu şu üç şeye dayanmalıdır:
+
+1. Kaynak
+2. Zaman
+3. Değerlendirme
+
+Kanıtsız iddia rapora yazılmaz.

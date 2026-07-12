@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hudut Intelligence Workspace
+Comment=Hudut Linux intelligence workspace klasörünü aç
+Exec=sh -c 'exec xdg-open "$HOME/hudut-linux/intelligence"'
+Terminal=false
+Categories=System;Utility;
+StartupNotify=true

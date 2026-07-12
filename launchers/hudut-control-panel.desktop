@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hudut Control Panel
+Comment=Hudut Linux V1 merkezi yönetim paneli
+Exec=sh -c 'cd "$HOME/hudut-linux" && exec python3 apps/control_panel/hudut_control_panel.py'
+Terminal=false
+Categories=System;Utility;
+StartupNotify=true

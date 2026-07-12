@@ -2,7 +2,7 @@
 Type=Application
 Name=Hudut Python Lab Folder
 Comment=Hudut Python Lab klasörü
-Exec=xdg-open /home/nnhfy/hudut-python-lab
+Exec=sh -c 'exec xdg-open "$HOME/hudut-python-lab"'
 Icon=/usr/local/share/hudut/branding/logo/hudut-logo.png
 Terminal=false
 Categories=System;

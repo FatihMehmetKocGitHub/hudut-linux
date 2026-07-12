@@ -1,23 +1,52 @@
-# Yasal ve Etik Kullanım Politikası
+# Hudut Linux V1 Legal and Ethical Use Policy
 
-Hudut Linux saldırı sistemi değildir.
+## Amaç
 
-Yasak kullanım alanları:
+Hudut Linux V1; yasal OSINT, CTI, savunmacı teknik araştırma, dokümantasyon ve raporlama için geliştirilmiştir.
 
-- İzinsiz sistem erişimi
-- Hesap ele geçirme
+## İzin Verilen Kullanım
+
+- Yasal OSINT araştırması
+- Savunmacı CTI
+- Marka koruma araştırması
+- Phishing göstergesi analizi
+- DNS ve ağ istihbaratı
+- Kriz ve kamu yararı araştırmaları
+- Yetkili güvenlik araştırması
+- Eğitim ve lab çalışmaları
+
+## Yasak Kullanım
+
+- Yetkisiz erişim
+- Yazılı izin olmadan gerçek sistemleri test etme
+- Kimlik bilgisi hırsızlığı
 - Doxxing
-- Kişisel veri yayma
-- Zararlı yazılım geliştirme
-- Kimlik avı saldırısı düzenleme
-- Yetkisiz ağ taraması
-- Yetkisiz veri toplama
+- Taciz veya takip
+- Zararlı yazılım dağıtımı
+- Veri hırsızlığı
+- Yasadışı gözetim
+- Hassas kişisel veri yayımlama
 
-İzinli kullanım alanları:
+## Ağ Araçları
 
-- Açık kaynak araştırma
-- Tehdit istihbaratı analizi
-- Alan adı / IP / DNS incelemesi
-- Yasal GEOINT ve IMINT çalışmaları
-- Kendi lab ortamında test
-- Resmi kurumlara bildirim amaçlı raporlama
+`nmap` gibi araçlar yalnızca:
+
+- Kendi laboratuvarında
+- Kendi sistemlerinde
+- Yazılı izinli hedeflerde
+- Eğitim ortamlarında
+
+kullanılmalıdır.
+
+## Public Repo Kuralı
+
+Public repo şunları içermemelidir:
+
+- Gerçek araştırma logları
+- Özel raporlar
+- Kimlik bilgileri
+- API anahtarları
+- Tokenlar
+- Kişisel notlar
+- Gerçek müşteri verisi
+- Kişisel veri içeren ekran görüntüleri

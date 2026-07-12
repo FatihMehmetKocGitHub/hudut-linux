@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hudut LXC Manager
+Comment=Hudut Linux LXC container yönetim aracı
+Exec=sh -c 'cd "$HOME/hudut-linux" && exec python3 apps/lxc_manager/hudut_lxc_manager.py'
+Terminal=false
+Categories=System;Utility;
+StartupNotify=true

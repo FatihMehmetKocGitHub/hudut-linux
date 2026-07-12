@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hudut Tool Installer
+Comment=Hudut Linux container bazlı araç kurulum merkezi
+Exec=sh -c 'cd "$HOME/hudut-linux" && exec python3 apps/tool_installer/hudut_tool_installer.py'
+Terminal=false
+Categories=System;Utility;
+StartupNotify=true

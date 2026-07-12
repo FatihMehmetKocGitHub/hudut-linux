@@ -1,15 +1,43 @@
-# 10_attack_surface_intel
-
-Bu klasör Hudut Linux siber istihbarat modüllerinden biridir.
+# ATTACK SURFACE INTEL
 
 ## Amaç
 
-Yasal, etik ve raporlanabilir açık kaynak araştırmaları için metodoloji, kaynak, not ve örnek çalışma dosyalarını düzenli tutmak.
+Yetkili sistemlerde veya kendi lab ortamında açıkta görünen varlıkları ve riskleri envanterleme.
 
-## İçerik
+## Önerilen Hudut Container
 
-- methodology.md
-- sources.md
-- checklist.md
-- examples/
-- notes/
+`hudut-techint`
+
+## V1 Kullanım Sınırı
+
+Bu klasör yalnızca yasal, etik, açık kaynak araştırma ve raporlama amacıyla kullanılır.
+
+Yasak kapsam:
+
+- Yetkisiz erişim
+- Doxxing
+- Kişisel veri yayma
+- Zararlı yazılım çalıştırma
+- İzinsiz hedef tarama
+- Taciz, takip veya tehdit amacıyla kullanım
+
+## Klasör Yapısı
+
+```text
+checklists/
+sources/
+reports/
+notes/
+cases/
+evidence/
+```
+
+## Raporlama İlkesi
+
+Her bulgu şu üç şeye dayanmalıdır:
+
+1. Kaynak
+2. Zaman
+3. Değerlendirme
+
+Kanıtsız iddia rapora yazılmaz.
